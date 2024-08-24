@@ -1,0 +1,34 @@
+@import "../../../styles/variables";
+.input {
+  background-color: $light-10;
+
+  color: #e0e1dd;
+
+  font-size: $text-sm;
+  font-weight: $font-bold;
+
+  height: 29px;
+  width: 180px;
+
+  border: none;
+  outline: none;
+
+  &::placeholder {
+    color: #e0e1dd;
+  }
+
+  &Wrapper {
+    border: 1px solid $light-10;
+    background-color: $light-10;
+
+    border-radius: $br-radius;
+
+    height: 30px;
+    width: 267px;
+  }
+
+  &Loupe {
+    margin: 2px 14px;
+    color: #e0e1dd;
+  }
+}
