@@ -1,0 +1,27 @@
+@import "./../../../styles/variables";
+
+.button {
+  background-color: $light-10;
+
+  &Playback {
+    border: none;
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: $br-radius-full;
+  }
+
+  &Action {
+    border: none;
+
+    height: 50px;
+    width: 120px;
+
+    border-radius: $br-radius;
+
+    font-size: $text-md;
+    font-weight: $font-bold;
+    color: #e0e1dd;
+  }
+}
