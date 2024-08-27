@@ -2,33 +2,39 @@
 .input {
   background-color: $light-10;
 
-  color: #e0e1dd;
+  color: $light-20;
 
   font-size: $text-sm;
   font-weight: $font-bold;
 
   height: 29px;
-  width: 180px;
+  width: 100%;
+
+  padding: 0 5px;
 
   border: none;
   outline: none;
 
   &::placeholder {
-    color: #e0e1dd;
+    color: $light-20;
   }
 
   &Wrapper {
+    display: flex;
+    align-items: center;
+
     border: 1px solid $light-10;
     background-color: $light-10;
 
     border-radius: $br-radius;
 
+    padding: 0 15px;
+
     height: 30px;
-    width: 267px;
+    max-width: 267px;
   }
 
   &Loupe {
-    margin: 2px 14px;
-    color: #e0e1dd;
+    color: $light-20;
   }
 }
