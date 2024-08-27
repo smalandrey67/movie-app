@@ -7,7 +7,7 @@ export function App() {
     <>
       <div>movie app</div>
       <Button variation="playback">
-        <IoPlayOutline size={20} background-color={#e0e1dd}/>
+        <IoPlayOutline size={20} background-color={"#e0e1dd"} />
       </Button>
       <Button variation="action">Text</Button>
     </>
