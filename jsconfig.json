@@ -5,6 +5,7 @@
     "paths": {
       "@ui/*": ["shared/ui/*"],
       "@styles/*": ["styles/*"],
+      "@modules/*": ["modules/*"],
       "@constants/*": ["shared/constants/*"],
       "@layout/*": ["layout/*"],
       "@pages/*": ["pages/index"],
