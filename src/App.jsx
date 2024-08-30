@@ -1,15 +1,13 @@
-import { IoPlayOutline } from "react-icons/io5";
+import { Layout } from "@layout/layout";
 
-import { Button } from "./shared/ui/Button/Button";
+import { Header } from "@modules/header";
+import { Banner } from "@modules/banner";
+import { Popular } from "@modules/popular";
+import { Trailer } from "@modules/trailer";
+import { LastWatching } from "@modules/last-watching";
 
 export function App() {
   return (
-    <>
-      <div>movie app</div>
-      <Button variation="playback">
-        <IoPlayOutline size={20} background-color={"#e0e1dd"} />
-      </Button>
-      <Button variation="action">Text</Button>
-    </>
+    <Layout Header={<Header />} Banner={<Banner />} Popular={<Popular />} Trailer={<Trailer />} LastWatching={<LastWatching />} />
   );
 }
