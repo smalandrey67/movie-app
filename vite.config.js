@@ -8,6 +8,7 @@ export default defineConfig({
     alias: {
       "@ui": "/src/shared/ui/",
       "@styles": "/src/styles/",
+      "@modules": "/src/modules/",
       "@constants": "/src/shared/constants",
       "@layout": "/src/layout/",
       "@pages": "/src/pages/",
