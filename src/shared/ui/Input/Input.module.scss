@@ -24,7 +24,6 @@
     display: flex;
     align-items: center;
 
-    border: 1px solid $light-10;
     background-color: $light-10;
 
     border-radius: $br-radius;
@@ -33,9 +32,5 @@
 
     height: 30px;
     max-width: 267px;
-  }
-
-  &Loupe {
-    color: $light-20;
   }
 }
