@@ -2,26 +2,26 @@
 
 .button {
   background-color: $light-10;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+
+  font-size: $text-md;
+  font-weight: $font-bold;
+  color: $light-20;
 
   &Playback {
-    border: none;
-
-    height: 50px;
     width: 50px;
-
     border-radius: $br-radius-full;
   }
 
   &Action {
-    border: none;
-
-    height: 50px;
-    width: 120px;
-
+    padding: 0 40px;
     border-radius: $br-radius;
-
-    font-size: $text-md;
-    font-weight: $font-bold;
-    color: #e0e1dd;
   }
 }
