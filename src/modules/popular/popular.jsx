@@ -1,3 +1,5 @@
+import styles from "./popular.module.scss";
+
 export function Popular() {
-  return <div>Popular</div>;
+  return <div className={styles.popular}>Popular</div>;
 }

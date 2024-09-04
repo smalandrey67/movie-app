@@ -1,15 +1,26 @@
+@import "@styles/variables";
+
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
   margin: 0 auto;
   max-width: 1020px;
+  height: 100vh;
+
   padding: 0 10px;
+
+  border-radius: 30px;
+  background-color: $secondary;
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  height: 93vh;
+  gap: 30px;
 
-  > div {
-    border: 1px solid red;
-  }
+  height: 86vh;
+
+  margin: 30px 40px;
 }
