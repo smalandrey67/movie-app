@@ -1,7 +1,7 @@
 @import "@styles/variables.scss";
 
 .card {
-  max-width: 250px;
+  max-width: 225px;
   height: 300px;
 
   background: url("https://www.kinofilms.ua/images/photos/w680/363139.jpg");
@@ -24,13 +24,31 @@
   &Info {
     display: flex;
     flex-direction: column;
+
+    font-size: 13px;
   }
 
-  &Genre,
   &Title,
   &Description {
     margin: 0px;
     color: $light-20;
+  }
+
+  &Genre {
+    margin: 0px;
+    color: $light-20;
+
+    &Wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: $br-radius;
+      width: 75px;
+      padding: 5px;
+
+      background: $light-10;
+    }
   }
 
   &Wrapper {
@@ -40,5 +58,7 @@
 
   &PlayBack {
     flex-shrink: 0;
+    background: $light-20;
+    color: $black;
   }
 }

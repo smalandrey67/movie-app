@@ -1,4 +1,4 @@
-import { PopularFilmCard } from "./components/popular-film-card/popular-film-card";
+import { PopularFilmCard } from "./components/popular-film-card/popular-film-card.jsx";
 
 export function Popular() {
   return (
