@@ -1,3 +1,5 @@
+import styles from "./banner.module.scss";
+
 export function Banner() {
-  return <div>Banner</div>;
+  return <div className={styles.banner}>Banner</div>;
 }
