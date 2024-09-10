@@ -2,7 +2,7 @@
 
 .header {
   background-color: $secondary-low-transparent;
-  border-radius: 30px;
+  border-radius: $br-radius;
   margin-bottom: 20px;
   min-height: 50px;
 }
