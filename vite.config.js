@@ -9,6 +9,7 @@ export default defineConfig({
       "@ui": "/src/shared/ui/",
       "@styles": "/src/styles/",
       "@modules": "/src/modules/",
+      "@components": "/src/components/",
       "@constants": "/src/shared/constants",
       "@layout": "/src/layout/",
       "@pages": "/src/pages/",

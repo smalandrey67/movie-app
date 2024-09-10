@@ -1,0 +1,18 @@
+@import "@styles/variables.scss";
+
+.buttonMore {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 30px;
+  width: 30px;
+
+  border-radius: $br-radius-full;
+
+  background: $light-10;
+}
