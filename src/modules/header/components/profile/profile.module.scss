@@ -5,11 +5,11 @@
   align-items: center;
   justify-content: space-evenly;
 
-  border-radius: 30px;
+  border-radius: $br-radius;
   background: $light-10;
 
-  width: 200px;
-  margin-left: 15px;
+  max-width: 200px;
+  width: 100%;
   padding: 5px 0px;
 
   &Info {

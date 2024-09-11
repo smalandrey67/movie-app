@@ -1,3 +1,9 @@
+import styles from "./navigation-option.module.scss";
+
 export function NavigationOption({ option }) {
-  return <a to={option.href}>{option.label}</a>;
+  return (
+    <a className={styles.navigationOption} to={option.href}>
+      {option.label}
+    </a>
+  );
 }

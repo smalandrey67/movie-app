@@ -1,0 +1,14 @@
+@import "@styles/variables";
+
+.navigationOption {
+  color: $light-20;
+
+  &:hover {
+    border-radius: $br-radius;
+    background-color: $light-10;
+
+    padding: 5px 10px;
+
+    transition: all 0.5s ease;
+  }
+}
