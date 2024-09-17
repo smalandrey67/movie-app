@@ -1,6 +1,12 @@
 @import "@styles/variables";
+@import "@styles/mixins";
 
 .trailer {
+  overflow: auto;
+
   border-radius: $br-radius;
   background-color: $secondary-low-transparent;
+  padding: 15px;
+
+  @include customScrollbar();
 }
