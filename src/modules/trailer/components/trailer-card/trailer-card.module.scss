@@ -1,0 +1,45 @@
+@import "@styles/variables";
+
+.trailerCard {
+  border-radius: $br-radius-small;
+  overflow: hidden;
+  background: $tertiary;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &Img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    &Wrapper {
+      height: 100px;
+    }
+  }
+
+  &Info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+
+    padding: 15px;
+  }
+
+  &Title {
+    margin: 0;
+
+    color: $light-20;
+    font-size: $text-sm;
+    font-weight: $font-light;
+  }
+
+  &Play {
+    flex-shrink: 0;
+
+    width: 30px;
+    height: 30px;
+  }
+}
