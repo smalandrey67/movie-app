@@ -1,14 +1,19 @@
 @import "@styles/variables";
 
 .navigationOption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 46px;
+  padding: 5px 20px;
+  border-radius: $br-radius;
   color: $light-20;
+  text-decoration: none;
+
+  transition: all 0.5s ease;
 
   &:hover {
-    border-radius: $br-radius;
     background-color: $light-10;
-
-    padding: 5px 10px;
-
-    transition: all 0.5s ease;
   }
 }
